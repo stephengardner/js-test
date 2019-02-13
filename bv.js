@@ -147,6 +147,10 @@
             firstPartyCookieEnabled: !0,
             thirdPartyCookieEnabled: !0,
             domain: "localhost"
+        }, {
+            firstPartyCookieEnabled: !0,
+            thirdPartyCookieEnabled: !0,
+            domain: "localhost"
         }],
         scoutVersion: "12.0.0",
         splitTestingEnabled: !1,
