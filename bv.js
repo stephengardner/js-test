@@ -150,7 +150,7 @@
         }, {
             firstPartyCookieEnabled: !0,
             thirdPartyCookieEnabled: !0,
-            domain: "localhost"
+            domain: "localhost:4040"
         }],
         scoutVersion: "12.0.0",
         splitTestingEnabled: !1,
