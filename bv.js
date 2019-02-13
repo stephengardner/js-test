@@ -151,6 +151,10 @@
             firstPartyCookieEnabled: !0,
             thirdPartyCookieEnabled: !0,
             domain: "localhost:4040"
+        }, {
+            firstPartyCookieEnabled: !0,
+            thirdPartyCookieEnabled: !0,
+            domain: ".localhost:4040"
         }],
         scoutVersion: "12.0.0",
         splitTestingEnabled: !1,
@@ -2600,8 +2604,10 @@
           , l = o()(f, a.a.domains);
         function d() {
             !function(e) {
-                if (!e.isValid)
+                if (!e.isValid) {
+                    console.log('e is:', e);
                     throw "Bazaarvoice is not configured for the domain " + f + "."
+                }
             }(l),
             function(e) {
                 if (e && e.src) {
